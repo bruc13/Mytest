@@ -27,3 +27,5 @@ Howto: [http://docs.transifex.com/faq/#translating](http://docs.transifex.com/fa
 
 
 This Contao 4 extension is still in development.
+
+## My Test
