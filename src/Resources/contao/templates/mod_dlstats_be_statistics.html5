@@ -240,7 +240,7 @@
 	</table>
 </div>
 <br> <br>
-<script src="bundles/bugbusterdlstats/tablesort.min.js"></script>
+<script src="bundles/bruc13dlstats/tablesort.min.js"></script>
 <script>
   (function() {
     window.addEvent('domready', function() {

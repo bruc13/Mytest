@@ -24,7 +24,7 @@
 	},
 	"require" : {
 		"php" : ">=5.6.0",
-		"contao/core-bundle" : "~4.3",
+		"contao/core-bundle" : "~4.4",
 		"bugbuster/contao-botdetection-bundle" : ">=0.2.1,<2"
 	},
 	"require-dev" : {
@@ -36,7 +36,7 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"BugBuster\\DlstatsBundle\\" : "src/"
+			"Bruc13\\DlstatsBundle\\" : "src/"
 		},
 		"classmap" : [
 			"src/Resources/contao/"
@@ -60,6 +60,6 @@
 				"languages_tx" : ".tx"
 			}
 		},
-		"contao-manager-plugin" : "BugBuster\\DlstatsBundle\\ContaoManager\\Plugin"
+		"contao-manager-plugin" : "Bruc13\\DlstatsBundle\\ContaoManager\\Plugin"
 	}
 }

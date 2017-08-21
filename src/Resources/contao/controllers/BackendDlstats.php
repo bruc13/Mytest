@@ -8,7 +8,7 @@
  * @see	       https://github.com/BugBuster1701/contao-dlstats-bundle
  */
 
-namespace BugBuster\DLStats;
+namespace Bruc13\DLStats;
 
 use Symfony\Component\HttpFoundation\Response;
 use BugBuster\DLStats\ModuleDlstatsStatisticsHelper;

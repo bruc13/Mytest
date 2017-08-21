@@ -36,7 +36,7 @@ $GLOBALS['TL_CONFIG']['dlstatLastDownloads'] = 20;
  */
 $GLOBALS['BE_MOD']['system']['dlstats'] = array
 (
-        'callback'   => 'BugBuster\DLStats\ModuleDlstatsStatistics',
+        'callback'   => 'Bruc13\DLStats\ModuleDlstatsStatistics',
         'icon'       => 'bundles/bugbusterdlstats/icon.png',
         'stylesheet' => 'bundles/bugbusterdlstats/mod_dlstatsstatistics_be.css',
 );
@@ -46,9 +46,9 @@ $GLOBALS['BE_MOD']['system']['dlstats'] = array
  * HOOKS
  * -------------------------------------------------------------------------
  */
-$GLOBALS['TL_HOOKS']['parseBackendTemplate'][]  = array('BugBuster\DLStats\DlstatsCheck',     'checkExtensions');
-$GLOBALS['TL_HOOKS']['postDownload'][]          = array('BugBuster\DLStats\Dlstats',          'logDownload');
-$GLOBALS['TL_HOOKS']['replaceInsertTags'][]     = array('BugBuster\DLStats\ModuleDlstatsTag', 'dlstatsReplaceInsertTags');
+$GLOBALS['TL_HOOKS']['parseBackendTemplate'][]  = array('Bruc13\DLStats\DlstatsCheck',     'checkExtensions');
+$GLOBALS['TL_HOOKS']['postDownload'][]          = array('Bruc13\DLStats\Dlstats',          'logDownload');
+$GLOBALS['TL_HOOKS']['replaceInsertTags'][]     = array('Bruc13\DLStats\ModuleDlstatsTag', 'dlstatsReplaceInsertTags');
 
 
 

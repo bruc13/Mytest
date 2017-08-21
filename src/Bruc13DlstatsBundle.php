@@ -9,7 +9,7 @@
  *
  */
 
-namespace BugBuster\DlstatsBundle;
+namespace Bruc13\DlstatsBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
@@ -18,6 +18,6 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
  *
  * @author Glen Langer
  */
-class BugBusterDlstatsBundle extends Bundle
+class Bruc13DlstatsBundle extends Bundle
 {
 }

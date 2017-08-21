@@ -9,7 +9,7 @@
  *
  */
 
-namespace BugBuster\DlstatsBundle\ContaoManager;
+namespace Bruc13\DlstatsBundle\ContaoManager;
 
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
@@ -31,7 +31,7 @@ class Plugin implements BundlePluginInterface, RoutingPluginInterface
     public function getBundles(ParserInterface $parser)
     {
         return [
-            BundleConfig::create('BugBuster\DlstatsBundle\BugBusterDlstatsBundle')
+            BundleConfig::create('Bruc13\DlstatsBundle\BugBusterDlstatsBundle')
                 ->setLoadAfter(['Contao\CoreBundle\ContaoCoreBundle'])
                 ->setReplace(['dlstats']),
         ];

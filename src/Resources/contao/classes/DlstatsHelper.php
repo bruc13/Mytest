@@ -18,7 +18,7 @@
 /**
  * Run in a custom namespace, so the class can be replaced
  */
-namespace BugBuster\DLStats;
+namespace Bruc13\DLStats;
 use BugBuster\BotDetection\ModuleBotDetection;
 
 /**

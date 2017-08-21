@@ -22,8 +22,8 @@
 /**
  * Run in a custom namespace, so the class can be replaced
  */
-namespace BugBuster\DLStats;
-use BugBuster\DLStats\DlstatsHelper; 
+namespace Bruc13\DLStats;
+use Bruc13\DLStats\DlstatsHelper; 
 
 /**
  * Class Dlstats

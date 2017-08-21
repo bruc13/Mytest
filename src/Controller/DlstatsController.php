@@ -8,9 +8,9 @@
  * @see	       https://github.com/BugBuster1701/contao-visitors-bundle
  */
 
-namespace BugBuster\DlstatsBundle\Controller;
+namespace Bruc13\DlstatsBundle\Controller;
 
-use BugBuster\DLStats\BackendDlstats;
+use Bruc13\DLStats\BackendDlstats;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
