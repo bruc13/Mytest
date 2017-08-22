@@ -31,7 +31,7 @@ class Plugin implements BundlePluginInterface, RoutingPluginInterface
     public function getBundles(ParserInterface $parser)
     {
         return [
-            BundleConfig::create('Bruc13\DlstatsBundle\BugBusterDlstatsBundle')
+            BundleConfig::create('Bruc13\DlstatsBundle\Bruc13DlstatsBundle')
                 ->setLoadAfter(['Contao\CoreBundle\ContaoCoreBundle'])
                 ->setReplace(['dlstats']),
         ];
