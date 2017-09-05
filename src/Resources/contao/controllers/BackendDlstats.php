@@ -11,7 +11,7 @@
 namespace Bruc13\DLStats;
 
 use Symfony\Component\HttpFoundation\Response;
-use BugBuster\DLStats\ModuleDlstatsStatisticsHelper;
+use Bruc13\DLStats\ModuleDlstatsStatisticsHelper;
 
 
 /**
@@ -59,15 +59,15 @@ class BackendDlstats extends ModuleDlstatsStatisticsHelper
 		$objTemplate->title         = \StringUtil::specialchars($GLOBALS['TL_LANG']['MSC']['systemMessages']);
 		$objTemplate->charset       = \Config::get('characterSet');
 
-		
+
 		if ( is_null( \Input::get('action'   ,true) ) ||
 		     is_null( \Input::get('dlstatsid',true) ) )
 		{
 		    $objTemplate->messages = '<p class="tl_error">'.$GLOBALS['TL_LANG']['tl_dlstatstatistics_stat']['wrong_parameter'].'</p>';
 		    return $objTemplate->getResponse();
 		}
-		
-		
+
+
 		switch (\Input::get('action',true))
 		{
 		    case 'TopLastDownloads' :
@@ -78,7 +78,7 @@ class BackendDlstats extends ModuleDlstatsStatisticsHelper
 		        $objTemplate->messages = '<p class="tl_error">'.$GLOBALS['TL_LANG']['tl_dlstatstatistics_stat']['wrong_parameter'].'</p>';
 		        break;
 		}
-		
+
 		return $objTemplate->getResponse();
 	}
 }
